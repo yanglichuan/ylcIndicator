@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6AB0AA1C0D96F600441919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB0A91C0D96F600441919 /* AppDelegate.swift */; };
+		9B6AB0AC1C0D96F600441919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB0AB1C0D96F600441919 /* ViewController.swift */; };
+		9B6AB0AF1C0D96F600441919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB0AD1C0D96F600441919 /* Main.storyboard */; };
+		9B6AB0B11C0D96F600441919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB0B01C0D96F600441919 /* Assets.xcassets */; };
+		9B6AB0B41C0D96F600441919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB0B21C0D96F600441919 /* LaunchScreen.storyboard */; };
+		9B6AB0BF1C0D96F600441919 /* myZhishiqiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB0BE1C0D96F600441919 /* myZhishiqiTests.swift */; };
+		9B6AB0CA1C0D96F600441919 /* myZhishiqiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB0C91C0D96F600441919 /* myZhishiqiUITests.swift */; };
+		9B6AB12B1C0D974B00441919 /* fefe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB12A1C0D974B00441919 /* fefe.m */; };
+		9B6AB1621C0D97F200441919 /* WifiMan_Sign_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB12C1C0D97F200441919 /* WifiMan_Sign_4@2x.png */; };
+		9B6AB1631C0D97F200441919 /* WifiMan_Sign_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB12D1C0D97F200441919 /* WifiMan_Sign_3@2x.png */; };
+		9B6AB1641C0D97F200441919 /* WifiMan_Sign_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB12E1C0D97F200441919 /* WifiMan_Sign_2@2x.png */; };
+		9B6AB1651C0D97F200441919 /* WifiMan_Sign_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB12F1C0D97F200441919 /* WifiMan_Sign_1@2x.png */; };
+		9B6AB1661C0D97F200441919 /* wifimanhub_grayscale@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB1301C0D97F200441919 /* wifimanhub_grayscale@2x.png */; };
+		9B6AB1671C0D97F200441919 /* wifimanhub@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB1311C0D97F200441919 /* wifimanhub@2x.png */; };
+		9B6AB1681C0D97F200441919 /* CabinCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB1321C0D97F200441919 /* CabinCondensed-Bold.ttf */; };
+		9B6AB1691C0D97F200441919 /* Neou-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB1331C0D97F200441919 /* Neou-Thin.ttf */; };
+		9B6AB16A1C0D97F200441919 /* FeHandwriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1361C0D97F200441919 /* FeHandwriting.m */; };
+		9B6AB16B1C0D97F200441919 /* FeRollingLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1391C0D97F200441919 /* FeRollingLoader.m */; };
+		9B6AB16C1C0D97F200441919 /* FeZeroLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB13C1C0D97F200441919 /* FeZeroLoader.m */; };
+		9B6AB16D1C0D97F200441919 /* FeEqualize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB13F1C0D97F200441919 /* FeEqualize.m */; };
+		9B6AB16E1C0D97F200441919 /* FeHourGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1421C0D97F200441919 /* FeHourGlass.m */; };
+		9B6AB16F1C0D97F200441919 /* FeWifiManHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1451C0D97F200441919 /* FeWifiManHub.m */; };
+		9B6AB1701C0D97F200441919 /* FeWifiManHub.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AB1461C0D97F200441919 /* FeWifiManHub.xib */; };
+		9B6AB1711C0D97F200441919 /* FeThreeDotGlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1491C0D97F200441919 /* FeThreeDotGlow.m */; };
+		9B6AB1721C0D97F200441919 /* FeVietNamLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB14C1C0D97F200441919 /* FeVietNamLoader.m */; };
+		9B6AB1731C0D97F200441919 /* FeVietNamBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB14E1C0D97F200441919 /* FeVietNamBar.m */; };
+		9B6AB1741C0D97F200441919 /* FeLoadingIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1511C0D97F200441919 /* FeLoadingIcon.m */; };
+		9B6AB1751C0D97F200441919 /* FeLoadingIconBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1531C0D97F200441919 /* FeLoadingIconBox.m */; };
+		9B6AB1761C0D97F200441919 /* FeSpinnerTenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1561C0D97F200441919 /* FeSpinnerTenDot.m */; };
+		9B6AB1771C0D97F200441919 /* FeTenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB1581C0D97F200441919 /* FeTenDot.m */; };
+		9B6AB1781C0D97F200441919 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB15C1C0D97F200441919 /* FXBlurView.m */; };
+		9B6AB1791C0D97F200441919 /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AB15F1C0D97F200441919 /* UIColor+flat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6AB0BB1C0D96F600441919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6AB09E1C0D96F600441919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6AB0A51C0D96F600441919;
+			remoteInfo = myZhishiqi;
+		};
+		9B6AB0C61C0D96F600441919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6AB09E1C0D96F600441919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6AB0A51C0D96F600441919;
+			remoteInfo = myZhishiqi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B6AB0A61C0D96F600441919 /* myZhishiqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myZhishiqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6AB0A91C0D96F600441919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B6AB0AB1C0D96F600441919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6AB0AE1C0D96F600441919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6AB0B01C0D96F600441919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6AB0B31C0D96F600441919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6AB0B51C0D96F600441919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6AB0BA1C0D96F600441919 /* myZhishiqiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myZhishiqiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6AB0BE1C0D96F600441919 /* myZhishiqiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myZhishiqiTests.swift; sourceTree = "<group>"; };
+		9B6AB0C01C0D96F600441919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6AB0C51C0D96F600441919 /* myZhishiqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myZhishiqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6AB0C91C0D96F600441919 /* myZhishiqiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myZhishiqiUITests.swift; sourceTree = "<group>"; };
+		9B6AB0CB1C0D96F600441919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6AB1281C0D974A00441919 /* myZhishiqi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myZhishiqi-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B6AB1291C0D974B00441919 /* fefe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fefe.h; sourceTree = "<group>"; };
+		9B6AB12A1C0D974B00441919 /* fefe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fefe.m; sourceTree = "<group>"; };
+		9B6AB12C1C0D97F200441919 /* WifiMan_Sign_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_4@2x.png"; sourceTree = "<group>"; };
+		9B6AB12D1C0D97F200441919 /* WifiMan_Sign_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_3@2x.png"; sourceTree = "<group>"; };
+		9B6AB12E1C0D97F200441919 /* WifiMan_Sign_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_2@2x.png"; sourceTree = "<group>"; };
+		9B6AB12F1C0D97F200441919 /* WifiMan_Sign_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_1@2x.png"; sourceTree = "<group>"; };
+		9B6AB1301C0D97F200441919 /* wifimanhub_grayscale@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifimanhub_grayscale@2x.png"; sourceTree = "<group>"; };
+		9B6AB1311C0D97F200441919 /* wifimanhub@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifimanhub@2x.png"; sourceTree = "<group>"; };
+		9B6AB1321C0D97F200441919 /* CabinCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CabinCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		9B6AB1331C0D97F200441919 /* Neou-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neou-Thin.ttf"; sourceTree = "<group>"; };
+		9B6AB1351C0D97F200441919 /* FeHandwriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHandwriting.h; sourceTree = "<group>"; };
+		9B6AB1361C0D97F200441919 /* FeHandwriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHandwriting.m; sourceTree = "<group>"; };
+		9B6AB1381C0D97F200441919 /* FeRollingLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeRollingLoader.h; sourceTree = "<group>"; };
+		9B6AB1391C0D97F200441919 /* FeRollingLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeRollingLoader.m; sourceTree = "<group>"; };
+		9B6AB13B1C0D97F200441919 /* FeZeroLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeZeroLoader.h; sourceTree = "<group>"; };
+		9B6AB13C1C0D97F200441919 /* FeZeroLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeZeroLoader.m; sourceTree = "<group>"; };
+		9B6AB13E1C0D97F200441919 /* FeEqualize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeEqualize.h; sourceTree = "<group>"; };
+		9B6AB13F1C0D97F200441919 /* FeEqualize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeEqualize.m; sourceTree = "<group>"; };
+		9B6AB1411C0D97F200441919 /* FeHourGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHourGlass.h; sourceTree = "<group>"; };
+		9B6AB1421C0D97F200441919 /* FeHourGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHourGlass.m; sourceTree = "<group>"; };
+		9B6AB1441C0D97F200441919 /* FeWifiManHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeWifiManHub.h; sourceTree = "<group>"; };
+		9B6AB1451C0D97F200441919 /* FeWifiManHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeWifiManHub.m; sourceTree = "<group>"; };
+		9B6AB1461C0D97F200441919 /* FeWifiManHub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeWifiManHub.xib; sourceTree = "<group>"; };
+		9B6AB1481C0D97F200441919 /* FeThreeDotGlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThreeDotGlow.h; sourceTree = "<group>"; };
+		9B6AB1491C0D97F200441919 /* FeThreeDotGlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThreeDotGlow.m; sourceTree = "<group>"; };
+		9B6AB14B1C0D97F200441919 /* FeVietNamLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeVietNamLoader.h; sourceTree = "<group>"; };
+		9B6AB14C1C0D97F200441919 /* FeVietNamLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeVietNamLoader.m; sourceTree = "<group>"; };
+		9B6AB14D1C0D97F200441919 /* FeVietNamBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeVietNamBar.h; sourceTree = "<group>"; };
+		9B6AB14E1C0D97F200441919 /* FeVietNamBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeVietNamBar.m; sourceTree = "<group>"; };
+		9B6AB1501C0D97F200441919 /* FeLoadingIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoadingIcon.h; sourceTree = "<group>"; };
+		9B6AB1511C0D97F200441919 /* FeLoadingIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoadingIcon.m; sourceTree = "<group>"; };
+		9B6AB1521C0D97F200441919 /* FeLoadingIconBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoadingIconBox.h; sourceTree = "<group>"; };
+		9B6AB1531C0D97F200441919 /* FeLoadingIconBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoadingIconBox.m; sourceTree = "<group>"; };
+		9B6AB1551C0D97F200441919 /* FeSpinnerTenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSpinnerTenDot.h; sourceTree = "<group>"; };
+		9B6AB1561C0D97F200441919 /* FeSpinnerTenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSpinnerTenDot.m; sourceTree = "<group>"; };
+		9B6AB1571C0D97F200441919 /* FeTenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeTenDot.h; sourceTree = "<group>"; };
+		9B6AB1581C0D97F200441919 /* FeTenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeTenDot.m; sourceTree = "<group>"; };
+		9B6AB15B1C0D97F200441919 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		9B6AB15C1C0D97F200441919 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		9B6AB15E1C0D97F200441919 /* UIColor+flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
+		9B6AB15F1C0D97F200441919 /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6AB0A31C0D96F600441919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AB0B71C0D96F600441919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AB0C21C0D96F600441919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6AB09D1C0D96F600441919 = {
+			isa = PBXGroup;
+			children = (
+				9B6AB0A81C0D96F600441919 /* myZhishiqi */,
+				9B6AB0BD1C0D96F600441919 /* myZhishiqiTests */,
+				9B6AB0C81C0D96F600441919 /* myZhishiqiUITests */,
+				9B6AB0A71C0D96F600441919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6AB0A71C0D96F600441919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB0A61C0D96F600441919 /* myZhishiqi.app */,
+				9B6AB0BA1C0D96F600441919 /* myZhishiqiTests.xctest */,
+				9B6AB0C51C0D96F600441919 /* myZhishiqiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6AB0A81C0D96F600441919 /* myZhishiqi */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1611C0D97F200441919 /* FeSpinner */,
+				9B6AB0A91C0D96F600441919 /* AppDelegate.swift */,
+				9B6AB0AB1C0D96F600441919 /* ViewController.swift */,
+				9B6AB1291C0D974B00441919 /* fefe.h */,
+				9B6AB12A1C0D974B00441919 /* fefe.m */,
+				9B6AB0AD1C0D96F600441919 /* Main.storyboard */,
+				9B6AB0B01C0D96F600441919 /* Assets.xcassets */,
+				9B6AB0B21C0D96F600441919 /* LaunchScreen.storyboard */,
+				9B6AB0B51C0D96F600441919 /* Info.plist */,
+				9B6AB1281C0D974A00441919 /* myZhishiqi-Bridging-Header.h */,
+			);
+			path = myZhishiqi;
+			sourceTree = "<group>";
+		};
+		9B6AB0BD1C0D96F600441919 /* myZhishiqiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB0BE1C0D96F600441919 /* myZhishiqiTests.swift */,
+				9B6AB0C01C0D96F600441919 /* Info.plist */,
+			);
+			path = myZhishiqiTests;
+			sourceTree = "<group>";
+		};
+		9B6AB0C81C0D96F600441919 /* myZhishiqiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB0C91C0D96F600441919 /* myZhishiqiUITests.swift */,
+				9B6AB0CB1C0D96F600441919 /* Info.plist */,
+			);
+			path = myZhishiqiUITests;
+			sourceTree = "<group>";
+		};
+		9B6AB1341C0D97F200441919 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB12C1C0D97F200441919 /* WifiMan_Sign_4@2x.png */,
+				9B6AB12D1C0D97F200441919 /* WifiMan_Sign_3@2x.png */,
+				9B6AB12E1C0D97F200441919 /* WifiMan_Sign_2@2x.png */,
+				9B6AB12F1C0D97F200441919 /* WifiMan_Sign_1@2x.png */,
+				9B6AB1301C0D97F200441919 /* wifimanhub_grayscale@2x.png */,
+				9B6AB1311C0D97F200441919 /* wifimanhub@2x.png */,
+				9B6AB1321C0D97F200441919 /* CabinCondensed-Bold.ttf */,
+				9B6AB1331C0D97F200441919 /* Neou-Thin.ttf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		9B6AB1371C0D97F200441919 /* Handwriting */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1351C0D97F200441919 /* FeHandwriting.h */,
+				9B6AB1361C0D97F200441919 /* FeHandwriting.m */,
+			);
+			name = Handwriting;
+			sourceTree = "<group>";
+		};
+		9B6AB13A1C0D97F200441919 /* Rolling */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1381C0D97F200441919 /* FeRollingLoader.h */,
+				9B6AB1391C0D97F200441919 /* FeRollingLoader.m */,
+			);
+			name = Rolling;
+			sourceTree = "<group>";
+		};
+		9B6AB13D1C0D97F200441919 /* Zero */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB13B1C0D97F200441919 /* FeZeroLoader.h */,
+				9B6AB13C1C0D97F200441919 /* FeZeroLoader.m */,
+			);
+			name = Zero;
+			sourceTree = "<group>";
+		};
+		9B6AB1401C0D97F200441919 /* Equalize */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB13E1C0D97F200441919 /* FeEqualize.h */,
+				9B6AB13F1C0D97F200441919 /* FeEqualize.m */,
+			);
+			name = Equalize;
+			sourceTree = "<group>";
+		};
+		9B6AB1431C0D97F200441919 /* HourGlass */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1411C0D97F200441919 /* FeHourGlass.h */,
+				9B6AB1421C0D97F200441919 /* FeHourGlass.m */,
+			);
+			name = HourGlass;
+			sourceTree = "<group>";
+		};
+		9B6AB1471C0D97F200441919 /* WifiManHub */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1441C0D97F200441919 /* FeWifiManHub.h */,
+				9B6AB1451C0D97F200441919 /* FeWifiManHub.m */,
+				9B6AB1461C0D97F200441919 /* FeWifiManHub.xib */,
+			);
+			name = WifiManHub;
+			sourceTree = "<group>";
+		};
+		9B6AB14A1C0D97F200441919 /* ThreeDotGlow */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1481C0D97F200441919 /* FeThreeDotGlow.h */,
+				9B6AB1491C0D97F200441919 /* FeThreeDotGlow.m */,
+			);
+			name = ThreeDotGlow;
+			sourceTree = "<group>";
+		};
+		9B6AB14F1C0D97F200441919 /* VietNamLoader */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB14B1C0D97F200441919 /* FeVietNamLoader.h */,
+				9B6AB14C1C0D97F200441919 /* FeVietNamLoader.m */,
+				9B6AB14D1C0D97F200441919 /* FeVietNamBar.h */,
+				9B6AB14E1C0D97F200441919 /* FeVietNamBar.m */,
+			);
+			name = VietNamLoader;
+			sourceTree = "<group>";
+		};
+		9B6AB1541C0D97F200441919 /* Loading icon */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1501C0D97F200441919 /* FeLoadingIcon.h */,
+				9B6AB1511C0D97F200441919 /* FeLoadingIcon.m */,
+				9B6AB1521C0D97F200441919 /* FeLoadingIconBox.h */,
+				9B6AB1531C0D97F200441919 /* FeLoadingIconBox.m */,
+			);
+			name = "Loading icon";
+			sourceTree = "<group>";
+		};
+		9B6AB1591C0D97F200441919 /* Ten Dot */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1551C0D97F200441919 /* FeSpinnerTenDot.h */,
+				9B6AB1561C0D97F200441919 /* FeSpinnerTenDot.m */,
+				9B6AB1571C0D97F200441919 /* FeTenDot.h */,
+				9B6AB1581C0D97F200441919 /* FeTenDot.m */,
+			);
+			name = "Ten Dot";
+			sourceTree = "<group>";
+		};
+		9B6AB15A1C0D97F200441919 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1371C0D97F200441919 /* Handwriting */,
+				9B6AB13A1C0D97F200441919 /* Rolling */,
+				9B6AB13D1C0D97F200441919 /* Zero */,
+				9B6AB1401C0D97F200441919 /* Equalize */,
+				9B6AB1431C0D97F200441919 /* HourGlass */,
+				9B6AB1471C0D97F200441919 /* WifiManHub */,
+				9B6AB14A1C0D97F200441919 /* ThreeDotGlow */,
+				9B6AB14F1C0D97F200441919 /* VietNamLoader */,
+				9B6AB1541C0D97F200441919 /* Loading icon */,
+				9B6AB1591C0D97F200441919 /* Ten Dot */,
+			);
+			name = Type;
+			sourceTree = "<group>";
+		};
+		9B6AB15D1C0D97F200441919 /* Blur View */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB15B1C0D97F200441919 /* FXBlurView.h */,
+				9B6AB15C1C0D97F200441919 /* FXBlurView.m */,
+			);
+			name = "Blur View";
+			sourceTree = "<group>";
+		};
+		9B6AB1601C0D97F200441919 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB15D1C0D97F200441919 /* Blur View */,
+				9B6AB15E1C0D97F200441919 /* UIColor+flat.h */,
+				9B6AB15F1C0D97F200441919 /* UIColor+flat.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		9B6AB1611C0D97F200441919 /* FeSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				9B6AB1341C0D97F200441919 /* Resource */,
+				9B6AB15A1C0D97F200441919 /* Type */,
+				9B6AB1601C0D97F200441919 /* Tool */,
+			);
+			name = FeSpinner;
+			path = ../../../../../../../../Music/FeSpinner/FeSpinner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6AB0A51C0D96F600441919 /* myZhishiqi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6AB0CE1C0D96F600441919 /* Build configuration list for PBXNativeTarget "myZhishiqi" */;
+			buildPhases = (
+				9B6AB0A21C0D96F600441919 /* Sources */,
+				9B6AB0A31C0D96F600441919 /* Frameworks */,
+				9B6AB0A41C0D96F600441919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myZhishiqi;
+			productName = myZhishiqi;
+			productReference = 9B6AB0A61C0D96F600441919 /* myZhishiqi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6AB0B91C0D96F600441919 /* myZhishiqiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6AB0D11C0D96F600441919 /* Build configuration list for PBXNativeTarget "myZhishiqiTests" */;
+			buildPhases = (
+				9B6AB0B61C0D96F600441919 /* Sources */,
+				9B6AB0B71C0D96F600441919 /* Frameworks */,
+				9B6AB0B81C0D96F600441919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6AB0BC1C0D96F600441919 /* PBXTargetDependency */,
+			);
+			name = myZhishiqiTests;
+			productName = myZhishiqiTests;
+			productReference = 9B6AB0BA1C0D96F600441919 /* myZhishiqiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B6AB0C41C0D96F600441919 /* myZhishiqiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6AB0D41C0D96F600441919 /* Build configuration list for PBXNativeTarget "myZhishiqiUITests" */;
+			buildPhases = (
+				9B6AB0C11C0D96F600441919 /* Sources */,
+				9B6AB0C21C0D96F600441919 /* Frameworks */,
+				9B6AB0C31C0D96F600441919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6AB0C71C0D96F600441919 /* PBXTargetDependency */,
+			);
+			name = myZhishiqiUITests;
+			productName = myZhishiqiUITests;
+			productReference = 9B6AB0C51C0D96F600441919 /* myZhishiqiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6AB09E1C0D96F600441919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = " yanglc";
+				TargetAttributes = {
+					9B6AB0A51C0D96F600441919 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9B6AB0B91C0D96F600441919 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9B6AB0A51C0D96F600441919;
+					};
+					9B6AB0C41C0D96F600441919 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9B6AB0A51C0D96F600441919;
+					};
+				};
+			};
+			buildConfigurationList = 9B6AB0A11C0D96F600441919 /* Build configuration list for PBXProject "myZhishiqi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6AB09D1C0D96F600441919;
+			productRefGroup = 9B6AB0A71C0D96F600441919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6AB0A51C0D96F600441919 /* myZhishiqi */,
+				9B6AB0B91C0D96F600441919 /* myZhishiqiTests */,
+				9B6AB0C41C0D96F600441919 /* myZhishiqiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6AB0A41C0D96F600441919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6AB1621C0D97F200441919 /* WifiMan_Sign_4@2x.png in Resources */,
+				9B6AB1671C0D97F200441919 /* wifimanhub@2x.png in Resources */,
+				9B6AB0B41C0D96F600441919 /* LaunchScreen.storyboard in Resources */,
+				9B6AB0B11C0D96F600441919 /* Assets.xcassets in Resources */,
+				9B6AB1631C0D97F200441919 /* WifiMan_Sign_3@2x.png in Resources */,
+				9B6AB1691C0D97F200441919 /* Neou-Thin.ttf in Resources */,
+				9B6AB1661C0D97F200441919 /* wifimanhub_grayscale@2x.png in Resources */,
+				9B6AB1641C0D97F200441919 /* WifiMan_Sign_2@2x.png in Resources */,
+				9B6AB1651C0D97F200441919 /* WifiMan_Sign_1@2x.png in Resources */,
+				9B6AB0AF1C0D96F600441919 /* Main.storyboard in Resources */,
+				9B6AB1701C0D97F200441919 /* FeWifiManHub.xib in Resources */,
+				9B6AB1681C0D97F200441919 /* CabinCondensed-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AB0B81C0D96F600441919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AB0C31C0D96F600441919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6AB0A21C0D96F600441919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6AB1741C0D97F200441919 /* FeLoadingIcon.m in Sources */,
+				9B6AB16A1C0D97F200441919 /* FeHandwriting.m in Sources */,
+				9B6AB16F1C0D97F200441919 /* FeWifiManHub.m in Sources */,
+				9B6AB1711C0D97F200441919 /* FeThreeDotGlow.m in Sources */,
+				9B6AB0AC1C0D96F600441919 /* ViewController.swift in Sources */,
+				9B6AB0AA1C0D96F600441919 /* AppDelegate.swift in Sources */,
+				9B6AB1721C0D97F200441919 /* FeVietNamLoader.m in Sources */,
+				9B6AB1781C0D97F200441919 /* FXBlurView.m in Sources */,
+				9B6AB1761C0D97F200441919 /* FeSpinnerTenDot.m in Sources */,
+				9B6AB16E1C0D97F200441919 /* FeHourGlass.m in Sources */,
+				9B6AB1791C0D97F200441919 /* UIColor+flat.m in Sources */,
+				9B6AB16D1C0D97F200441919 /* FeEqualize.m in Sources */,
+				9B6AB12B1C0D974B00441919 /* fefe.m in Sources */,
+				9B6AB1751C0D97F200441919 /* FeLoadingIconBox.m in Sources */,
+				9B6AB1731C0D97F200441919 /* FeVietNamBar.m in Sources */,
+				9B6AB16B1C0D97F200441919 /* FeRollingLoader.m in Sources */,
+				9B6AB1771C0D97F200441919 /* FeTenDot.m in Sources */,
+				9B6AB16C1C0D97F200441919 /* FeZeroLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AB0B61C0D96F600441919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6AB0BF1C0D96F600441919 /* myZhishiqiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6AB0C11C0D96F600441919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6AB0CA1C0D96F600441919 /* myZhishiqiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6AB0BC1C0D96F600441919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6AB0A51C0D96F600441919 /* myZhishiqi */;
+			targetProxy = 9B6AB0BB1C0D96F600441919 /* PBXContainerItemProxy */;
+		};
+		9B6AB0C71C0D96F600441919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6AB0A51C0D96F600441919 /* myZhishiqi */;
+			targetProxy = 9B6AB0C61C0D96F600441919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B6AB0AD1C0D96F600441919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6AB0AE1C0D96F600441919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6AB0B21C0D96F600441919 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6AB0B31C0D96F600441919 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6AB0CC1C0D96F600441919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B6AB0CD1C0D96F600441919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6AB0CF1C0D96F600441919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = myZhishiqi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.myZhishiqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myZhishiqi/myZhishiqi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B6AB0D01C0D96F600441919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = myZhishiqi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.myZhishiqi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myZhishiqi/myZhishiqi-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9B6AB0D21C0D96F600441919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myZhishiqiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.myZhishiqiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myZhishiqi.app/myZhishiqi";
+			};
+			name = Debug;
+		};
+		9B6AB0D31C0D96F600441919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = myZhishiqiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.myZhishiqiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myZhishiqi.app/myZhishiqi";
+			};
+			name = Release;
+		};
+		9B6AB0D51C0D96F600441919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myZhishiqiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.myZhishiqiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myZhishiqi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B6AB0D61C0D96F600441919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = myZhishiqiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.com.myZhishiqiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = myZhishiqi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6AB0A11C0D96F600441919 /* Build configuration list for PBXProject "myZhishiqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6AB0CC1C0D96F600441919 /* Debug */,
+				9B6AB0CD1C0D96F600441919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6AB0CE1C0D96F600441919 /* Build configuration list for PBXNativeTarget "myZhishiqi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6AB0CF1C0D96F600441919 /* Debug */,
+				9B6AB0D01C0D96F600441919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B6AB0D11C0D96F600441919 /* Build configuration list for PBXNativeTarget "myZhishiqiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6AB0D21C0D96F600441919 /* Debug */,
+				9B6AB0D31C0D96F600441919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B6AB0D41C0D96F600441919 /* Build configuration list for PBXNativeTarget "myZhishiqiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6AB0D51C0D96F600441919 /* Debug */,
+				9B6AB0D61C0D96F600441919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6AB09E1C0D96F600441919 /* Project object */;
+}
